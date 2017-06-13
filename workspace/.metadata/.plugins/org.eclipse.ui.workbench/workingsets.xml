@@ -35,6 +35,7 @@
 <item elementID="=MyFirstProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Battleship" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=LordOfObjects" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Presidents" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497290089708_7" label="Quizzes" name="Quizzes">
 <item elementID="=ZOO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
