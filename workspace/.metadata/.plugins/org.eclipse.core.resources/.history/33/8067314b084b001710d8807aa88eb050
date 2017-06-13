@@ -1,0 +1,31 @@
+package labs;
+
+public class StateTest {
+	public static void main(String[] args) {
+		State[] stateArray = new State[5];
+
+		State colorado = new State("Colorado", "CO", "Denver", 5450000);
+		State wyoming = new State("Wyoming", "WY", "Cheyenne", 586000);
+		State utah = new State("Utah", "UT", "Salt Lake City", 2996000);
+		State newYork = new State("New York", "NY", "Albany", 8491000);
+		State vermont = new State("Vermont", "VT", "Montpellier", 626000);
+
+		stateArray[0] = colorado;
+		stateArray[1] = wyoming;
+		stateArray[2] = utah;
+		stateArray[3] = newYork;
+		stateArray[4] = vermont;
+
+		int tempPop = 0;
+		for (int i = 0; i < stateArray.length; i++) {
+			if (stateArray[i].getPopulation() > tempPop) {
+				tempPop = stateArray[i].getPopulation();
+			}
+		}
+		for (int i = 0; i < stateArray.length; i++) {
+			if (tempPop == stateArray[i].getPopulation()) {
+				stateArray[i].display();
+			}
+		}
+	}
+}

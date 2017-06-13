@@ -1,0 +1,64 @@
+package labs;
+
+public class Employee {
+	private String firstName, lastName;
+	private int salary, employeeID;
+	static int minimumWage = 50000, retirementAge = 65;
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
+	public int getEmployeeID() {
+		return employeeID;
+	}
+
+	public void setEmployeeID(int employeeID) {
+		this.employeeID = employeeID;
+	}
+
+	public static int getMinimumWage() {
+		return minimumWage;
+	}
+
+	public static void setMinimumWage(int minimumWage) {
+		Employee.minimumWage = minimumWage;
+	}
+
+	public static int getRetirementAge() {
+		return retirementAge;
+	}
+
+	public static void setRetirementAge(int retirementAge) {
+		Employee.retirementAge = retirementAge;
+	}
+
+	public void display() {
+		System.out.println(firstName + " " + lastName + "\nSalary: " +
+							salary + "\nEmployee ID: " + employeeID +
+							"\nMinimum wage: " + minimumWage + "\nRetirement age: " 
+							+ retirementAge);
+		System.out.println();
+
+	}
+}

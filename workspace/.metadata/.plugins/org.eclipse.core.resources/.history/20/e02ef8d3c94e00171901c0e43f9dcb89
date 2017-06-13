@@ -1,0 +1,9 @@
+package jets;
+
+public class Jet {
+	String model;
+	double price, range, speed;
+	
+	
+
+}

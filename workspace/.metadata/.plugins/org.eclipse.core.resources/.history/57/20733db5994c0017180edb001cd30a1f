@@ -1,0 +1,10 @@
+package lordofobjects;
+
+public class Level1 extends Enemies {
+
+	public Level1(int health, int attack) {
+		super(health, attack);
+		// TODO Auto-generated constructor stub
+	}
+
+}

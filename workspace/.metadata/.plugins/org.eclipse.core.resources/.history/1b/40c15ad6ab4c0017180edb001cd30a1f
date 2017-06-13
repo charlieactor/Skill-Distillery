@@ -1,0 +1,40 @@
+package lordofobjects;
+
+public abstract class MainCharacter {
+	private int health;
+	protected double attack;
+	private String name;
+	
+	public int getHealth() {
+		return health;
+	}
+
+	public void setHealth(double health) {
+		this.health = health;
+	}
+
+	public double getAttack() {
+		return attack;
+	}
+
+	public void setAttack(int attack) {
+		this.attack = attack;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public abstract double attack(int type);
+
+	public MainCharacter(int health, double attack, String name) {
+		super();
+		this.health = health;
+		this.attack = attack;
+		this.name = name;
+	}
+}

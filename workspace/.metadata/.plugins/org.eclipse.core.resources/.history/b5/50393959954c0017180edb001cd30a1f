@@ -1,0 +1,10 @@
+package lordofobjects;
+
+public abstract class Enemies {
+	int health, attack;
+
+	public int attack() {
+		return 10;
+	}
+	
+}

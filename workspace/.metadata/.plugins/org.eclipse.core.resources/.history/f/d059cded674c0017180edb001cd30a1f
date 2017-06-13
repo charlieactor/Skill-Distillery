@@ -1,0 +1,10 @@
+package labs;
+
+public class Vehicle {
+	protected int purchasePrice, numWheels;
+	
+	Vehicle() {
+		
+	}
+
+}

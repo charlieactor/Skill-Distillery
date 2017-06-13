@@ -1,0 +1,9 @@
+package labs;
+
+public class MorningFun {
+
+	public static void main(String[] args) {
+
+	}
+
+}

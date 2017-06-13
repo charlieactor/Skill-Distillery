@@ -1,0 +1,17 @@
+package labs;
+
+public class StateTest {
+	public static void main(String[] args) {
+		State colorado = new State("Colorado", "CO", "Denver");
+		State utah = new State("Utah", "UT", "Salt Lake City");
+		State wyoming = new State("Wyoming", "WY", "Cheyenne");
+		
+		wyoming.setPopulation(100);
+		wyoming.setBird("Something hideous and lonely");
+		
+		colorado.display();
+		utah.display();
+		wyoming.display();
+	}
+
+}

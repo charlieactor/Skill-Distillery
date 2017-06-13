@@ -1,0 +1,24 @@
+package solutions;
+
+public class BMI4 {
+	int heightFeet, heightInches, weight;
+	java.util.Scanner keyboard = new java.util.Scanner(System.in);
+	public void main(String[] args) {
+		
+	}
+	
+	public String
+
+	public String(float BMI) {
+		String diagnosis;
+		if (BMI < 18.5) {
+			diagnosis = "Underweight.";
+		} else if (BMI <= 24.9) {
+			diagnosis = "Normal.";
+		} else if (BMI <= 29.9) {
+			diagnosis = "Overweight.";
+		} else {
+			diagnosis = "Obese.";
+		}
+	}
+}

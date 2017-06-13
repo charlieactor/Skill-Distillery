@@ -1,0 +1,10 @@
+package labs;
+
+public abstract class Shape {
+
+	Shape() {
+		String color;
+		
+	}
+
+}

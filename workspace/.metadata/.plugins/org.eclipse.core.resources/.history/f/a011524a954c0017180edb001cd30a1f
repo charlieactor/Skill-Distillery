@@ -1,0 +1,6 @@
+package lordofobjects;
+
+public abstract class Enemies {
+	int health, attack;
+
+}

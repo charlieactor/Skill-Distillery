@@ -1,0 +1,7 @@
+package examples;
+
+public class BadAgeException extends Exception {
+	String BadAgeException() {
+	return "Ya fucked up";
+	}
+}

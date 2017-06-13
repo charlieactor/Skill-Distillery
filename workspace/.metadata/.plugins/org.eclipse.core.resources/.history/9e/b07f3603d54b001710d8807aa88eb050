@@ -1,0 +1,42 @@
+package zoo;
+
+public class Animal {
+	private String name, gender = "female";
+	private int weight;
+
+	Animal(String name, String gender, int weight) {
+		setName(name);
+		setGender(gender);
+		setWeight(weight);
+	}
+	Animal(String name, int weight) {
+		setName(name);
+		setWeight(weight);
+	}
+
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+}

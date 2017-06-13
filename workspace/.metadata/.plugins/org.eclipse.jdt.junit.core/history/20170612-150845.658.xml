@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Java2Chapter2Tests" project="Java2-Chapter02" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="labs.Java2Chapter2Tests" time="0.0">
+    <testcase name="test_printStudents_prints_students_in_order_of_seats" classname="labs.Java2Chapter2Tests" time="0.0"/>
+  </testsuite>
+</testrun>

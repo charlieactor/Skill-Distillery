@@ -1,0 +1,50 @@
+package labs;
+
+public class MonthTest {
+	public static void main(String[] args) {
+		Month[] monthArray = new Month[12];
+
+//		DEFINE THE MONTHS BY NAME: 
+//		
+//		Month january = defineMonth("January", "Jan", 31);
+//		Month february = defineMonth("February", "Feb", 28);
+//		Month march = defineMonth("March", "Mar", 31);
+//		Month april = defineMonth("April", "Apr", 30);
+//		Month may = defineMonth("May", "May", 31);
+//		Month june = defineMonth("June", "Jun", 30);
+//		Month july = defineMonth("July", "Jul", 31);
+//		Month august = defineMonth("August", "Aug", 31);
+//		Month september = defineMonth("September", "Sep", 30);
+//		Month october = defineMonth("October", "Oct", 31);
+//		Month november = defineMonth("November", "Nov", 30);
+//		Month december = defineMonth("December", "Dec", 31);
+
+		monthArray[0] = defineMonth("January", "Jan", 31);
+		monthArray[1] = defineMonth("February", "Feb", 28);
+		monthArray[2] = defineMonth("March", "Mar", 31);
+		monthArray[3] = defineMonth("April", "Apr", 30);
+		monthArray[4] = defineMonth("May", "May", 31);
+		monthArray[5] = defineMonth("June", "Jun", 30);
+		monthArray[6] = defineMonth("July", "Jul", 31);
+		monthArray[7] = defineMonth("August", "Aug", 31);
+		monthArray[8] = defineMonth("September", "Sep", 30);
+		monthArray[9] = defineMonth("October", "Oct", 31);
+		monthArray[10] = defineMonth("November", "Nov", 30);
+		monthArray[11] = defineMonth("December", "Dec", 31);
+		
+		int sum = 0;
+		for (int i = 0; i < monthArray.length; i++) {
+			monthArray[i].display(true);
+			sum += monthArray[i].monthDays;
+		}
+		System.out.println("Total days: " + sum);
+	}
+
+	public static Month defineMonth(String name, String abb, int days) {
+		Month month = new Month();
+		month.monthName = name;
+		month.monthAbbreviation = abb;
+		month.monthDays = days;
+		return month;
+	}
+}

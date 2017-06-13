@@ -1,0 +1,28 @@
+Answers to the chapter 10 review questions.
+
+1.  Explain the term debugging.
+
+  A:  Debugging is the process of finding and fixing problems with your
+      programs.
+
+2.  How do you "comment out" statements in your program?  How does that help 
+    you debug the program?
+
+  A:  Locate potential problem sections in your code and place comment 
+      characters around them.  Recompile and reexecute the program to see if
+      the problem is still occuring.
+
+3.  How can adding extra print statements to your program help you debug?
+
+  A:  You can find out when various parts of your program are being executed.
+
+4.  What is useful about making your debugging print statements conditional?
+
+  A:  It makes it easier to remove them when they are no longer needed, such
+      as when you release your program.
+
+5.  What is a debugger?
+
+  A:  A debugger is special program that helps you debug your programs.  
+      Debuggers allow you to set breakpoints, single step through your code
+      and look at the values of variables as your run your program.

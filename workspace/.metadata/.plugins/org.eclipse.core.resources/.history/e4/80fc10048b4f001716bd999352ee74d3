@@ -1,0 +1,31 @@
+package com.skilldistillery.calc;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculatorTests {
+	
+	Calculator calc;
+	
+
+	@Before
+	public void setUp() throws Exception {
+		calc = new Calculator();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		calc = null;
+	}
+
+	@Test
+	public void test_add_adds_two_numbers() {
+		int expected = 15;
+		int result = calc.add(9,  6);
+		assertEquals(-3, calc.add(-1,  -2));
+	}
+
+}

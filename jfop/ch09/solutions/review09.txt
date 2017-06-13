@@ -1,0 +1,47 @@
+Answers to chapter 9 review questions
+
+1.  What is a method?
+
+  A:  A section of a program that performs a particular task.  Programs consist
+      of modules, each of which contains one or more methods.  
+
+2.  Why do you use methods?
+
+  A:  Use methods to make your programs smaller and more maintainable.
+
+3.  What is the syntax necessary to call a method from within your program?
+
+  A:  Specify the name of the method, followed by parentheses, ().
+
+4.  What is the difference between a global and a local variable?
+
+  A:  A global variable is accessible to the entire program.  A local variable
+      is only accessible in the code block where they are defined.
+
+5.  How do you pass parameters to the methods in your program?
+
+  A:  Place them in the parentheses.
+
+6.  Explain how to accept a return value from a method in your program.
+
+  A:  Save the return value in a variable of the same type as the return
+      declaration or use it in an expression.
+
+7.  Where does a program actually start executing?
+
+  A:  In the main() method.
+
+8.  How do you define a method?
+
+  A:  public returnType methodName(arg1Type, arg2Type, ...) {
+      }
+
+9.  What is a method stub?
+
+  A:  A method stub does not have any code in between the method's curly 
+      braces.
+
+10.  Explain the purpose of a library.
+
+  A:  A library is a file that contains methods that can be used by several
+      different programs.

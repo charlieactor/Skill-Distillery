@@ -1,0 +1,12 @@
+package labs;
+
+public class StateTest {
+	public static void main(String[] args) {
+		
+		
+		colorado.display();
+		utah.display();
+		wyoming.display();
+	}
+
+}

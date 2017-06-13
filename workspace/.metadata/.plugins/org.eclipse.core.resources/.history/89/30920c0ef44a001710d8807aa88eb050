@@ -1,0 +1,88 @@
+package labs;
+
+public class MonthTest {
+	public static void main(String[] args) {
+		Month[] monthArray = new Month[12];
+
+		Month january = new Month();
+		Month february = new Month();
+		Month march = new Month();
+		Month april = new Month();
+		Month may = new Month();
+		Month june = new Month();
+		Month july = new Month();
+		Month august = new Month();
+		Month september = new Month();
+		Month october = new Month();
+		Month november = new Month();
+		Month december = new Month();
+
+		january.monthName = "January";
+		january.monthAbbreviation = "Jan";
+		january.monthDays = 31;
+
+		february.monthName = "February";
+		february.monthAbbreviation = "Feb";
+		february.monthDays = 28;
+
+		march.monthName = "March";
+		march.monthAbbreviation = "Mar";
+		march.monthDays = 31;
+
+		april.monthName = "April";
+		april.monthAbbreviation = "Apr";
+		april.monthDays = 30;
+
+		may.monthName = "May";
+		may.monthName = "May";
+		may.monthDays = 31;
+
+		june.monthName = "June";
+		june.monthAbbreviation = "Jun";
+		june.monthDays = 30;
+
+		july.monthName = "July";
+		july.monthAbbreviation = "Jul";
+		july.monthDays = 31;
+
+		august.monthName = "August";
+		august.monthAbbreviation = "Aug";
+		august.monthDays = 31;
+
+		september.monthName = "September";
+		september.monthAbbreviation = "Sept";
+		september.monthDays = 30;
+
+		october.monthName = "October";
+		october.monthAbbreviation = "Oct";
+		october.monthDays = 31;
+
+		november.monthName = "November";
+		november.monthAbbreviation = "Nov";
+		november.monthDays = 30;
+
+		december.monthName = "December";
+		december.monthAbbreviation = "Dec";
+		december.monthDays = 31;
+
+		monthArray[0] = january;
+		monthArray[1] = february;
+		monthArray[2] = march;
+		monthArray[3] = april;
+		monthArray[4] = may;
+		monthArray[5] = june;
+		monthArray[6] = july;
+		monthArray[7] = august;
+		monthArray[8] = september;
+		monthArray[9] = october;
+		monthArray[10] = november;
+		monthArray[11] = december;
+		
+		int sum = 0;
+		for (int i = 0; i < monthArray.length; i++) {
+			monthArray[i].display(true);
+			sum += monthArray[i].monthDays;
+			System.out.println("Total days so far: " + sum);
+		}
+	}
+}

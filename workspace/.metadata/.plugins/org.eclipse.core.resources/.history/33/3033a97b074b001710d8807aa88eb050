@@ -1,0 +1,10 @@
+package labs;
+
+public class StateTest {
+	public static void main(String[] args) {
+		State[] stateArray = new State[5];
+		
+		
+	}
+
+}

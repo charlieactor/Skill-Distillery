@@ -1,0 +1,14 @@
+package battleship;
+
+public class GameDriver {
+	public static void main(String[] args) {
+		
+		Ship[] shipArr = new Ship[7];
+		Ship shipOne = new Ship("Ship One", 5, 5);
+		
+		shipArr[0] = shipOne;
+		
+		
+		
+	}
+}

@@ -1,0 +1,72 @@
+package labs;
+
+public class State {
+	private String name, abbrev, capital, bird;
+	private int population;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		if (!name.equals(null) && !name.equals("")) {
+			this.name = name;
+		}
+		else {
+			System.out.println("Invalid input, please try again");
+		}
+	}
+
+	public String getAbbrev() {
+		return abbrev;
+	}
+
+	public void setAbbrev(String abbrev) {
+		if (!abbrev.equals(null) && !abbrev.equals("")) {
+			this.abbrev = abbrev;
+		}
+		else {
+			System.out.println("Invalid input, please try again");
+		}
+	}
+
+	public String getCapital() {
+		return capital;
+	}
+
+	public void setCapital(String capital) {
+		if (!capital.equals(null) && !capital.equals("")) {
+			this.capital = capital;
+		}
+		else {
+			System.out.println("Invalid input, please try again");
+		}
+	}
+
+	public String getBird() {
+		return bird;
+	}
+
+	public void setBird(String bird) {
+		if (!bird.equals(null) && !bird.equals("")) {
+			this.bird = bird;
+		}
+		else {
+			System.out.println("Invalid input, please try again");
+		}
+	}
+
+	public int getPopulation() {
+		return population;
+	}
+
+	public void setPopulation(int population) {
+		if (population =! 0) {
+			this.name = name;
+		}
+		else {
+			System.out.println("Invalid input, please try again");
+		}
+	}
+
+}

@@ -1,0 +1,6 @@
+package labs;
+
+public class State {
+	private String name, abbrev, capital, bird;
+	pivate int population;
+}

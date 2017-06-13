@@ -1,0 +1,14 @@
+package battleship;
+
+public class Ship {
+	private int length, numHits;
+	
+	Ship(int length, int numHits) {
+		this.length = length;
+		this.numHits = numHits;
+	}
+	
+	Ship() {
+	}
+	
+}

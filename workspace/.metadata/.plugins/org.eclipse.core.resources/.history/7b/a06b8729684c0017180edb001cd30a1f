@@ -1,0 +1,14 @@
+package labs;
+
+public class Vehicle {
+	protected int purchasePrice, numWheels;
+	
+	Vehicle() {
+		
+	}
+	Vehicle(int price, int wheels) {
+		this.purchasePrice = price;
+		this.numWheels = wheels;
+	}
+
+}

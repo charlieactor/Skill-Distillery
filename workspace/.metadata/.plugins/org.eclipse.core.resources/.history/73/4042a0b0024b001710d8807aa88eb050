@@ -1,0 +1,18 @@
+package labs;
+
+public class Month {
+	String monthName, monthAbbreviation;
+	int monthDays;
+	
+	public void display() {
+		System.out.println(monthName + " " + monthDays);
+	}
+	public void display(boolean detailed) {
+		if (detailed == true) {
+			System.out.println(monthName + " " + monthAbbreviation + " " + monthDays);
+		}
+		else {
+			System.out.println(monthName);
+		}
+	}
+}

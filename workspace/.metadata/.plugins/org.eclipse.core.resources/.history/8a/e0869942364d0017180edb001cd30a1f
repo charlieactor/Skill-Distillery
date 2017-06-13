@@ -1,0 +1,15 @@
+package labs;
+
+public class Circle extends Shape {
+
+	public Circle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

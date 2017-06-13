@@ -1,0 +1,16 @@
+Answers to the chapter 11 review questions.
+
+1.  Describe the difference between a scalar variable and a data collection.
+
+  A:  A scalar variable contains a single value.  A data collection contains
+      multiple values.
+
+2.  What is an array?
+
+  A:  An array is a homogeneous data collection.  All of its elements are the
+      same type.
+
+3.  How do you access an array element?
+
+  A:  Access an array element with its index position inside of square 
+      brackets:  monthlyPrecip[4].

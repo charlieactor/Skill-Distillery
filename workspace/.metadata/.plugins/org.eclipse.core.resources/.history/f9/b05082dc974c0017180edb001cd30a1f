@@ -1,0 +1,27 @@
+package lordofobjects;
+
+public abstract class Enemies {
+	int health, attack;
+
+	public int attack() {
+		return 10;
+	}
+
+	public int getHealth() {
+		return health;
+	}
+
+	public void setHealth(int health) {
+		this.health = health;
+	}
+
+	public int getAttack() {
+		return attack;
+	}
+
+	public void setAttack(int attack) {
+		this.attack = attack;
+	}
+	
+	
+}

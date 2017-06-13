@@ -1,0 +1,33 @@
+package jets;
+
+public class Jet {
+	String model;
+	double price, range, speed;
+	
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public double getRange() {
+		return range;
+	}
+	public void setRange(double range) {
+		this.range = range;
+	}
+	public double getSpeed() {
+		return speed;
+	}
+	public void setSpeed(double speed) {
+		this.speed = speed;
+	}
+	
+
+}

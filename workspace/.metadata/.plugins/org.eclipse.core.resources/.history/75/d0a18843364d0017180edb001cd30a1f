@@ -1,0 +1,13 @@
+package labs;
+
+public class Circle extends Shape {
+
+	public Circle() {
+	}
+
+	@Override
+	public int getArea() {
+		return 0;
+	}
+
+}

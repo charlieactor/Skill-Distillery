@@ -1,0 +1,11 @@
+package labs;
+
+public class Automobile extends Vehicle {
+	protected String make, model;
+	protected int year;
+	
+	Automobile(int price, int wheels, String make, String model, int year) {
+		super(price, wheels) 
+		
+	}
+}

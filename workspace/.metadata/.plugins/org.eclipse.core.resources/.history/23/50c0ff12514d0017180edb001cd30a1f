@@ -1,0 +1,32 @@
+package examples;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Divide {
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Please enter an int: ");
+		int num1 = keyboard.nextInt();
+		try {
+			int num1 = keyboard.nextInt();
+		}
+		catch (InputMismatchException ime) {
+			System.err.println("That's not a number at all!");
+		}
+		System.out.print("Please enter another int: ");
+		int num2 = keyboard.nextInt();
+		keyboard.close();
+		try {
+			num2 = keyboard.nextInt();
+		}
+		catch (ArithmeticException e) {
+			System.err.println("Cannot divide by zero");
+		}
+		
+		int result = num1 / num2;
+		System.out.println(num1 + " / " + num2 + " = " + result);
+		
+	}
+}

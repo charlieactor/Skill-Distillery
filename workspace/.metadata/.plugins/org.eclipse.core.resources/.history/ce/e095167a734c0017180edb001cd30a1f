@@ -1,0 +1,50 @@
+package labs;
+
+public class Truck extends Automobile{
+	private int bedSize;
+	
+	Truck(int price, int wheels, String make, String model, int year, int bedSize) {
+		super(price, wheels, make, model, year);
+		this.bedSize = bedSize;
+	}
+
+	public double calculateRegistrationFee() {
+		if (this.numWheels >=6){
+			double fee = this.getPurchasePrice() * .015;
+			if (this.getYear() < java.time.Year.now().getValue() - 50){
+				fee = fee - (this.getPurchasePrice() * 0.005);
+			}
+			else {
+				double yearLess = ((java.time.Year.now().getValue() - this.getYear()) + 1);
+				fee = fee - (yearLess * .001 * this.getPurchasePrice());
+			}
+			return fee;
+		}
+		else {
+			double fee = this.getPurchasePrice() * .01;
+			if (this.getYear() < java.time.Year.now().getValue() - 50){
+				fee = fee - (this.getPurchasePrice() * 0.005);
+			}
+			else {
+				double yearLess = ((java.time.Year.now().getValue() - this.getYear()) + 1);
+				fee = fee - (yearLess * .001 * this.getPurchasePrice());
+			}
+			return fee;
+		}
+			
+	}
+	public int getBedSize() {
+		return bedSize;
+	}
+
+	public void setBedSize(int bedSize) {
+		this.bedSize = bedSize;
+	}
+
+	@Override
+	public String toString() {
+		return "Truck [bedSize=" + bedSize + ", make=" + make + ", model=" + model + ", year=" + year
+				+ ", purchasePrice=" + purchasePrice + ", numWheels=" + numWheels + "]";
+	}
+	
+}

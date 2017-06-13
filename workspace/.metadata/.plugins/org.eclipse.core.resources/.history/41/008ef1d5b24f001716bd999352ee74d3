@@ -1,0 +1,30 @@
+package labs;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class Java2Chapter2Tests {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	Students sn;
+	@Test
+	public void test_printStudents_prints_students_in_order_of_seats() {
+		sn.printStudents();
+		
+		
+		
+		
+	}
+
+}

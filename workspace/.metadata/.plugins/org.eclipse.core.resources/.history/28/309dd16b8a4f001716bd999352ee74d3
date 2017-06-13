@@ -1,0 +1,9 @@
+package com.skilldistillery.calc;
+
+public class Calculator {
+	
+	public Calculator() {
+		
+	}
+
+}

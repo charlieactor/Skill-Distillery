@@ -1,0 +1,19 @@
+package labs;
+
+public class EmpTest {
+	public static void main(String[] args) {
+		Employee emp1 = new Employee();
+		emp1.setFirstName = "Alan";
+		emp1.setLastName = "Smith";
+		emp1.salary = 90000;
+		emp1.employeeID = 2526;
+		emp1.display();
+		
+		Employee emp2 = new Employee();
+		emp2.firstName = "Sally";
+		emp2.lastName = "Yates";
+		emp2.salary = 91000;
+		emp2.employeeID = 72559;
+		emp2.display();
+	}
+}

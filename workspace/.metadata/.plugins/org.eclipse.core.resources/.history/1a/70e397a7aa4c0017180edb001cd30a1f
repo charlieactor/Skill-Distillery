@@ -1,0 +1,23 @@
+package lordofobjects;
+
+public class Level3 extends Enemies {
+
+	public Level3(int health, int attack) {
+		super(health, attack);
+		// TODO Auto-generated constructor stub
+	}
+
+@Override
+	
+	public int attack() {
+		int damage = 9 + ((int)(Math.random() * 2));
+		double probability = Math.random();
+		if (probability >= 0.25) {
+			return damage;
+		}
+		else {
+			damage = 0;
+			return damage;
+		}
+	}
+}

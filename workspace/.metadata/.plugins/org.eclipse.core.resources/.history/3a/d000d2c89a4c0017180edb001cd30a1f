@@ -1,0 +1,15 @@
+package lordofobjects;
+
+public abstract class MainCharacter {
+	int health, attack;
+	String name;
+	
+	public abstract int attack();
+
+	public MainCharacter(int health, int attack, String name) {
+		super();
+		this.health = health;
+		this.attack = attack;
+		this.name = name;
+	}
+}

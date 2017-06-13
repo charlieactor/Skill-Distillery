@@ -1,0 +1,23 @@
+package labs;
+
+public class Circle extends Shape {
+	int radius;
+	public Circle() {
+		super(color);
+		this.radius = radius;
+	}
+
+	@Override
+	public int getArea() {
+		return 0;
+	}
+
+	public int getRadius() {
+		return radius;
+	}
+
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+
+}

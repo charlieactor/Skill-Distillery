@@ -1,0 +1,34 @@
+package labs;
+
+public class StateTest {
+	public static void main(String[] args) {
+		State[] stateArray = new State[6];
+
+		State colorado = new State("Colorado", "CO", "Denver", 5450000);
+		State wyoming = new State("Wyoming", "WY", "Cheyenne", 586000);
+		State utah = new State("Utah", "UT", "Salt Lake City", 2996000);
+		State newYork = new State("New York", "NY", "Albany", 8491000);
+		State vermont = new State("Vermont", "VT", "Montpellier", 626000);
+		State california = new State("California", "CA", "Sacramento", 39000000);
+
+		stateArray[0] = colorado;
+		stateArray[1] = wyoming;
+		stateArray[2] = utah;
+		stateArray[3] = newYork;
+		stateArray[4] = vermont;
+		stateArray[5] = california;
+
+		int highestPop = 0;
+		for (int i = 0; i < stateArray.length; i++) {
+			if (stateArray[i].getPopulation() > highestPop) {
+				highestPop = stateArray[i].getPopulation();
+			}
+		}
+		for (int i = 0; i < stateArray.length; i++) {
+			if (highestPop == stateArray[i].getPopulation()) {
+				stateArray[i].setBird("California Quail");
+				stateArray[i].display();
+			}
+		}
+	}
+}
