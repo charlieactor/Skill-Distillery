@@ -149,7 +149,7 @@ public class Reader {
 	
 	//Takes arraylist and returns an arraylist of presidents with terms less than 4 years.
 	public static List<Presidents> makeTermList(List<Presidents> p) {
-		List<Presidents> presParty = new ArrayList<>(); 
+		List<President> presParty = new ArrayList<>(); 
 		for (int i = 0; i < p.size(); i++) {
 			if ((presList.get(i).getEndYear()) - (presList.get(i).getStartYear()) < 4) {
 				presParty.add(p.get(i));
