@@ -1,0 +1,23 @@
+package labs;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class ShowHits implements Comparable{
+	{
+		try (BufferedReader bufIn = new BufferedReader(new FileReader("access_log"))) {
+			
+			String line = bufIn.readLine();
+			while ((line = bufIn.readLine()) != null) {
+			String[] hits = line.split(" - - ");
+			Set<String> userHits = new TreeSet<>();
+			userHits.add(hits[0]);
+			}
+		} catch (IOException ioe) {
+			System.out.println(ioe);
+		}
+	}
+}

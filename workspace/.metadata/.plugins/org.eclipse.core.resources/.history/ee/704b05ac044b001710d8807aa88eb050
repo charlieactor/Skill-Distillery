@@ -1,7 +1,0 @@
-package labs;
-
-public class State {
-	private String name, abbrev, capital, bird;
-	private int population;
-	
-}

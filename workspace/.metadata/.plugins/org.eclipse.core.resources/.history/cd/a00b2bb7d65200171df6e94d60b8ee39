@@ -1,0 +1,25 @@
+package com.skilldistillery.cards.players;
+
+import java.util.List;
+
+import com.skilldistillery.cards.Card;
+
+public class UserPlayer extends Player {
+	Dealer theDealer = new Dealer();
+
+	public UserPlayer() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void hit() {
+		theDealer.hitPlayer();
+	}
+
+	@Override
+	public void stay() {
+		
+
+	}
+
+}

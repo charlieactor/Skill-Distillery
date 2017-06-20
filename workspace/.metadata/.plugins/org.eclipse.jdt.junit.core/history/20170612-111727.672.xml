@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="StringTests" project="Java1-Chapter14" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.skilldistillery.stringtest.StringTests" time="0.001">
-    <testcase name="test_chatAt_throw_index_out_of_bounds_exception_for_negative_or_not_less_than_length_of_String" classname="com.skilldistillery.stringtest.StringTests" time="0.001"/>
-    <testcase name="test_concat_will_concatenate_two_strings" classname="com.skilldistillery.stringtest.StringTests" time="0.0"/>
-    <testcase name="test_chatAt_returns_character_at_index" classname="com.skilldistillery.stringtest.StringTests" time="0.0"/>
-  </testsuite>
-</testrun>

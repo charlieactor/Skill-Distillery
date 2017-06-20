@@ -1,0 +1,14 @@
+package bingo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BallFactory {
+	
+	public List<PingPongBall> makeBingoBalls() {
+		for (int i = 0; i < 75; i++){
+			
+		}
+	}
+	
+}

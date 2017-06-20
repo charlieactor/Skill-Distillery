@@ -1,14 +1,19 @@
 package romanNumerals;
 
-import java.util.LinkedHashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 public class RomanNumeralsTranslator {
     public static void main(String[] args) {
-        System.out.println(translateNumToRomanNumeral(10_500_497).toString());
-        
+    	Scanner keyboard = new Scanner(System.in);
+    	int input;
+    	System.out.print("Please enter a number to be converted to Roman Numerals: ");
+    	input = keyboard.nextInt();
+        System.out.println(translateNumToRomanNumeral(input).toString());
+        keyboard.close();
     }
 
     public static StringBuilder translateNumToRomanNumeral(Integer num) {
@@ -63,9 +68,7 @@ public class RomanNumeralsTranslator {
                     remainingNum %= nextKey;
                     for (int i = 0; i < numVars; i++) {
                         answer.append(numeralsMap.get(nextKey));
-
                     }
-
                 } else if (remainingNum % nextKey == 0) {
                     remainingNum -= nextKey;
                     answer.append(numeralsMap.get(nextKey));

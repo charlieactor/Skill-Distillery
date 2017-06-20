@@ -1,0 +1,29 @@
+package labs;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ShowHits implements Comparable{
+	{
+		try (BufferedReader bufIn = new BufferedReader(new FileReader("access_log"))) {
+			List<String> userHits = new ArrayList<>();
+			
+			String line = bufIn.readLine();
+			while ((line = bufIn.readLine()) != null) {
+			String[] hits = line.split(" - - ");
+			userHits.add(hits[0]);
+			}
+			
+			for (String user : userHits) {
+				user.compareTo(user+1);
+			}
+			System.out.println(userHits);
+			
+		} catch (IOException ioe) {
+			System.out.println(ioe);
+		}
+	}
+}

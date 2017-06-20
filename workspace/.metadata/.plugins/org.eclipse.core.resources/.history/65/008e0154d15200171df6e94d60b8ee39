@@ -1,0 +1,7 @@
+package com.skilldistillery.cards;
+
+public class Card {
+	Ranks rank;
+	Suits suit;
+
+}

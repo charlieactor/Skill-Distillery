@@ -1,0 +1,16 @@
+package labs;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class ShowHits {
+	try(BufferedReader bufIn = new BufferedReader(new FileReader("access_log"))){
+		
+	}
+	catch(IOException ioe) {
+		
+	}
+}
+}
+

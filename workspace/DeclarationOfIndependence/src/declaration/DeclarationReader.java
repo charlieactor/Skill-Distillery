@@ -10,6 +10,7 @@ public class DeclarationReader {
 		try (BufferedReader bufIn = 
 					new BufferedReader(new FileReader("usdeclar.txt"))){
 			String line;
+			
 			int characterCount = 0;
 			int lineCount = 0;
 			int wordCount = 0;

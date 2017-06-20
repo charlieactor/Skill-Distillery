@@ -1,0 +1,26 @@
+package romanNumerals;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class RomanNumeralsTests {
+	RomanNumeralsTranslator translator;
+	@Before
+	public void setUp() throws Exception {
+		RomanNumeralsTranslator translator = new RomanNumeralsTranslator();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		translator = null;
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

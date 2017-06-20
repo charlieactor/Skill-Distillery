@@ -1,0 +1,21 @@
+package com.skilldistillery.cards.blackjack;
+
+import java.util.Collections;
+
+import com.skilldistillery.cards.Deck;
+
+public class GameDriver {
+
+	public static void main(String[] args) {
+		Deck gameDeck = new Deck();
+		
+		Collections.shuffle(gameDeck.getDeck());
+		
+		
+//		Print out remaining Deck:
+//		for (int i = 0; i < 52; i++){
+//			System.out.println(gameDeck.getDeck().get(i).toString());
+//		}
+	}
+
+}

@@ -1,7 +1,0 @@
-package labs;
-
-public class Address {
-	int houseNumber;
-	String street, city, state;
-	StringBuilder zipcode;
-}

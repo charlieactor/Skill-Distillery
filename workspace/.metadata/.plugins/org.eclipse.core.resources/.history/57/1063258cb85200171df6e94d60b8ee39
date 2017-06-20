@@ -1,0 +1,30 @@
+package bingo;
+
+import java.util.*;
+
+public class Card implements Comparable{
+	String[][] card = new String[5][5];
+
+	public Card makeNewCard(){
+		for (int i = 0; i < 5; i++){
+			for (int j = 0; j < 5; j++) {
+				if (i == 0) {
+					String marker = Integer.toString(((int)Math.random()*15) + 1);
+					List<String> column = new ArrayList<>();
+					if (column.contains(marker)) {
+						j = j - 1;
+					}
+					else {
+						column.add(marker);
+					}
+					
+				}
+			}
+		}
+		
+		return null;
+	}
+	
+}
+
+

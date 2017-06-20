@@ -1,0 +1,5 @@
+package bingo;
+
+public abstract class PingPongBall {
+	int number;
+}

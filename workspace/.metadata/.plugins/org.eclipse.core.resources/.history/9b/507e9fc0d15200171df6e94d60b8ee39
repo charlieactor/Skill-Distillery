@@ -1,0 +1,22 @@
+package com.skilldistillery.cards;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Deck {
+	List<Card> deck = new ArrayList<>();
+	
+	Deck() {
+	}
+
+	public List<Card> getDeck() {
+		return deck;
+	}
+
+	
+	
+	public void setDeck(List<Card> deck) {
+		this.deck = deck;
+	}
+
+}

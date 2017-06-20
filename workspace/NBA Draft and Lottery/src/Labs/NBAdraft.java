@@ -14,7 +14,7 @@ public class NBAdraft {
 		NBAHopper hopper = new NBAHopper();
 		hopper.ShuffleAndFindWinningTeam();
 	    NBAPingPongBall ping = hopper.ShuffleAndFindWinningTeam();
-		System.out.println("lineCounter: " + lineCounter + " " + ping.getNBAteams());
+		System.out.println("Counter: " + lineCounter + " " + ping.getNBAteams());
 	}
 	}
 }

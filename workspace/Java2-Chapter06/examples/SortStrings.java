@@ -6,8 +6,8 @@ import java.util.TreeSet;
 public class SortStrings {
 
     public static void main(String[] args) {
-        Set<String> students = new TreeSet<>();
-        //  Set<String> students = new TreeSet<>(new StringComparator());
+//        Set<String> students = new TreeSet<>();
+          Set<String> students = new TreeSet<>(new StringComparator());
         students.add("James");
         students.add("Jack");
         students.add("joseph");

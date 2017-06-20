@@ -1,0 +1,5 @@
+package com.skilldistillery.cards.players;
+
+public abstract class Player {
+
+}

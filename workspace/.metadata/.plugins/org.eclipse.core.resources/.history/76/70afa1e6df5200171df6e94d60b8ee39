@@ -1,0 +1,53 @@
+package com.skilldistillery.cards.players;
+
+import java.util.Collections;
+
+import com.skilldistillery.cards.Card;
+import com.skilldistillery.cards.Deck;
+
+public class Dealer extends Player {
+	
+	Deck deck;
+
+	public Dealer() {
+		deck = new Deck();
+	}
+	
+	public String determineWhatToDo(){
+		do {
+		if(this.getTotal() <= 16) {
+			this.hit();
+			return "hit";
+		}
+		else {
+			return "stay";
+		}
+		} while (decision.equals("hit"));
+	}
+	
+	public void Shuffle(){
+		Collections.shuffle(deck.getDeck());
+	}
+	
+	public Card hit() {
+		return deck.getDeck().remove(0);
+	}
+
+	public Card deal(){
+		return deck.getDeck().remove(0);
+	}
+	
+	@Override
+	public void stay() {
+		// TODO Auto-generated method stub
+	}
+
+	public Deck getDeck() {
+		return deck;
+	}
+
+	public void setPlayingDeck(Deck deck) {
+		this.deck = deck;
+	}
+
+}

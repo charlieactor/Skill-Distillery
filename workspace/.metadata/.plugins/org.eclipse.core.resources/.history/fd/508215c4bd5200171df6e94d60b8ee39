@@ -1,0 +1,19 @@
+package bingo;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class BingoHopper  {
+	List<PingPongBall> bingoBalls = new ArrayList<>();
+	
+	public PingPongBall shuffleBalls(){
+		
+		BallFactory factory = new BallFactory();
+		factory.makeBingoBalls();
+	
+		
+		
+	}
+	
+}

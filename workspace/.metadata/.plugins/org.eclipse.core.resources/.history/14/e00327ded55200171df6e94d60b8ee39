@@ -1,0 +1,21 @@
+package com.skilldistillery.cards.blackjack;
+
+import com.skilldistillery.cards.*;
+import com.skilldistillery.cards.players.*;
+
+public class GameDriver {
+
+	public static void main(String[] args) {
+		Deck gameDeck = new Deck();
+		
+		for (int i = 0; i < 52; i++) {
+			System.out.println(gameDeck.getDeck().get(i).getRank());
+			System.out.println(gameDeck.getDeck().get(i).getSuit());
+			
+		}
+		
+		System.out.println(gameDeck.getDeck());
+		
+	}
+
+}

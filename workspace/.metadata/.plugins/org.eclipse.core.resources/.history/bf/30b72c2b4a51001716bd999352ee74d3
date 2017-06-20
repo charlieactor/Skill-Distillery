@@ -1,0 +1,15 @@
+package romanNumerals;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class RomanNumeralsTranslator {
+	
+	public String translateNumToRomanNumeral(int num){
+		Map<Integer, String> numeralsMap = new HashMap<>();
+		
+		
+		return null;
+	}
+	
+}

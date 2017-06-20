@@ -1,0 +1,36 @@
+package romanNumerals;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class RomanNumeralsTranslator {
+	
+	public String translateNumToRomanNumeral(Integer num){
+		String answer = "";
+		Map<Integer, String> numeralsMap = new HashMap<>();
+		numeralsMap.put(10,  "X");
+		numeralsMap.put(9,  "IX");
+		numeralsMap.put(5,  "V");
+		numeralsMap.put(4,  "IV");
+		numeralsMap.put(1, "I");
+		
+		Set<Integer>numeralsKeys = numeralsMap.keySet();
+		Iterator<Integer>it = numeralsKeys.iterator();
+		
+		
+		while (it.hasNext()){
+			Integer nextKey = it.next();
+			if (nextKey == num){
+				answer = numeralsMap.get(nextKey);
+			}
+			else {
+				
+			}
+		}
+		
+		return answer;
+	}
+	
+}

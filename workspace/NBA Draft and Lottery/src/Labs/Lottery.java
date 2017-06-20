@@ -14,7 +14,7 @@ public class Lottery {
 
 		List<LotteryBall> whitewinners = new ArrayList<>();
 	    whitewinners = whiteHopper.find5WinningWhiteBalls();
-	    System.out.println("...and your lottery numbers are....");
+	    System.out.println("...and your lottery numbers are...");
 	    for (int i = 0; i < 5; i++) {
 	    	System.out.println(whitewinners.get(i).getNumber()); 
 	    }

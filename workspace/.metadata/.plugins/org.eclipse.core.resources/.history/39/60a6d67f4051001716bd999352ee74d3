@@ -1,0 +1,8 @@
+package declaration;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class DeclarationReader {
+	BufferedReader bf = new FileReader("usdeclar.txt");
+}

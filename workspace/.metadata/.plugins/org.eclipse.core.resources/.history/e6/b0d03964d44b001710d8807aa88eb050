@@ -1,9 +1,0 @@
-package zoo;
-
-public class Animal {
-	String name, gender = "female";
-	int weight;
-
-	Animal() {
-	}
-}

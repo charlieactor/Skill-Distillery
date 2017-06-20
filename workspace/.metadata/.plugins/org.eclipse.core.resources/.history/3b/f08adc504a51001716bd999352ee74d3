@@ -1,0 +1,17 @@
+package romanNumerals;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class RomanNumeralsTranslator {
+	
+	public String translateNumToRomanNumeral(Integer num){
+		Map<Integer, String> numeralsMap = new HashMap<>();
+		numeralsMap.put(1, "I");
+		numeralsMap.put(4,  "IV");
+		numeralsMap.put(5,  "V");
+		
+		return null;
+	}
+	
+}

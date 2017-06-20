@@ -1,0 +1,8 @@
+package bingo;
+
+public class BingoDriver {
+	public static void main(String[] args) {
+		Card mycard = new Card();
+		
+	}
+}

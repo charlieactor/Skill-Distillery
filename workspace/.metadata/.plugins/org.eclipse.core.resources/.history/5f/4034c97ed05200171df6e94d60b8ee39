@@ -1,0 +1,22 @@
+package com.skilldistillery.cards;
+
+public enum Ranks {
+	private final int value;
+	Ranks (int value){
+		this.value = value;
+	}
+	TWO(2), 
+	THREE,
+	FOUR,
+	FIVE,
+	SIX,
+	SEVEN,
+	EIGHT,
+	NINE,
+	TEN,
+	JACK,
+	QUEEN,
+	KING,
+	ACE; 
+
+}

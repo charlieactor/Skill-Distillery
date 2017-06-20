@@ -1,0 +1,17 @@
+package com.skilldistillery.cards.blackjack;
+
+import java.util.Collections;
+
+import com.skilldistillery.cards.Deck;
+
+public class GameDriver {
+
+	public static void main(String[] args) {
+		Deck gameDeck = new Deck();
+		
+		Collections.shuffle(gameDeck);
+		
+		
+	}
+
+}
