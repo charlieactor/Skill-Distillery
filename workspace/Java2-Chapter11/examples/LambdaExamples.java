@@ -27,8 +27,8 @@ public class LambdaExamples {
 	 * java.util.concurrent.Callable<V> : V call() : return the current year as
 	 * an Integer
 	 */
-	static Callable<LocalDateTime> callYear = (() -> {
-		return LocalDateTime.now();
+	static Callable<Integer> callYear = (() -> {
+		return LocalDateTime.now().getYear();
 	});
 
 	/*
@@ -49,7 +49,7 @@ public class LambdaExamples {
 	 * "u"
 	 */
 	static Predicate<Planet> containsU = (Planet p1) -> {
-		if (p1.getName().contains("u")) {
+		if (p1.getName().toLowerCase().contains("u")) {
 			return true;
 		} else {
 			return false;
@@ -61,7 +61,7 @@ public class LambdaExamples {
 	 */
 	
 	static BiPredicate<Planet, String> containsString = (Planet p, String s) -> {
-		if (p.getName().contains(s.toLowerCase())) {
+		if (p.getName().toLowerCase().contains(s.toLowerCase())) {
 			return true;
 		} else {
 			return false;
@@ -75,7 +75,7 @@ public class LambdaExamples {
 	static Function<President, String> lastFirst = (President p) -> {
 		StringBuilder lastFirst = new StringBuilder();
 		lastFirst.append(p.getLastName());
-		lastFirst.append(" ");
+		lastFirst.append(", ");
 		lastFirst.append(p.getFirstName());
 		String lastFirstString;
 		lastFirstString = lastFirst.toString();
@@ -105,8 +105,6 @@ public class LambdaExamples {
 				noVowelName += presName.charAt(i);
 			}
 		}
-			
-		
 		return noVowelName;
 	};
 }

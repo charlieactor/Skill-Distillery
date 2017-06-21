@@ -1,0 +1,25 @@
+package labs;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class ReadFile extends Thread{
+	String fileName;
+	int objectNum;
+	
+	public ReadFile(String fileName, int objectNum){
+		this.fileName = fileName;
+		this.objectNum = objectNum;
+	}
+	
+	public void run() {
+		try {
+			BufferedReader bufIn = new BufferedReader(
+					new FileReader("ThreadTest.txt"));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
