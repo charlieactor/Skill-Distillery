@@ -20,16 +20,18 @@ public class FilterPresidents {
 		parser.parse();
 		List<President> presidentsList = parser.getPresidents();
 		
-		class RepublicanPredicate implements Predicate<President> {
-			public boolean test(President p) {
-				return p.getParty().equals("Republican");
-			}
-		}
+//		class RepublicanPredicate implements Predicate<President> {
+//			public boolean test(President p) {
+//				return p.getParty().equals("Republican");
+//			}
+//		}
 		
-		List<President> filteredList = filterPresidents(presidentsList, 
-				new RepublicanPredicate());
+		List<President> filteredListRepubs = filterPresidents(presidentsList, 
+				p -> p.getParty().equals("Republican"));
+		List<President> filteredListLessThan4 = filterPresidents(presidentsList, 
+				p -> p.getEndTerm()-p.getStartTerm() < 4);
 		
-		for (President president : filteredList) {
+		for (President president : filteredListRepubs) {
 			System.out.println(president);
 		}
 	}

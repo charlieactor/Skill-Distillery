@@ -10,7 +10,7 @@ public class PrintBigPlanets {
 //      }
 //    }
     List<Planet> planets = PlanetUtilities.getPlanets();
-    planets = PlanetUtilities.filterPlanets(planets, p -> p.getDiameter() > 45_000);
+    planets = PlanetUtilities.filterPlanets(planets, p -> p.getDiameter() > 42_000);
     for (Planet planet : planets) {
       System.out.println(planet);
     }

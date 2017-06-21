@@ -1,0 +1,8 @@
+package examples;
+
+import java.util.List;
+
+public class PrintDistantPlanets {
+	List<Planet> planets = PlanetUtilities.getPlanets();
+	planets = PlanetUtilities.filterPlanets(planets, (p) -> p.getOrbit() > 200_000_000);
+}
