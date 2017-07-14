@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Form</title>
+</head>
+<body>
+	<form action="SayHello" method="GET">
+		First Name:<input type="text" name="firstname" /><br>
+		Last Name: <input type="text" name="lastname" placeholder="lastname" />
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+package com.skilldistillery.web;
+
+import javax.servlet.http.HttpServlet;
+
+public class LotteryServlet extends HttpServlet {
+
+}

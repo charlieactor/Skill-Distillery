@@ -1,6 +1,0 @@
-package com.skilldistillery.cards;
-
-public class Deck {
-	List<Card> deck = new ArrayList<>();
-
-}

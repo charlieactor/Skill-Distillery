@@ -1,5 +1,0 @@
-package labs;
-
-public class Text implements Drawable {
-	String value;
-}

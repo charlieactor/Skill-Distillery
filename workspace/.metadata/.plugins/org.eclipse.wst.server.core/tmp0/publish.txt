@@ -1,0 +1,14 @@
+#Tomcat publish data
+#Thu Jul 13 17:29:55 MDT 2017
+org.eclipse.jst.jee.server\:/binary\:/Users/Charlie/.m2/repository/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE.jar=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/USStates/WEB-INF/lib/spring-web-4.3.2.RELEASE.jar
+org.eclipse.jst.jee.server\:Stocks=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/Stocks
+org.eclipse.jst.jee.server\:StocksWithSessions=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/StocksWithSessions
+org.eclipse.jst.jee.server\:HelloWorld=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/HelloWorld
+org.eclipse.jst.jee.server\:PresidentsProject=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/PresidentsProject
+org.eclipse.jst.jee.server\:CalculatorWebApp=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/CalculatorWebApp
+org.eclipse.jst.jee.server\:USStates=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/USStates
+org.eclipse.jst.jee.server\:SpringMVCLab=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/SpringMVCLab
+org.eclipse.jst.jee.server\:ShoppingCart=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/ShoppingCart
+org.eclipse.jst.jee.server\:SpringLottoWeb=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/SpringLottoWeb
+org.eclipse.jst.jee.server\:StocksWithJSP=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/StocksWithJSP
+org.eclipse.jst.jee.server\:LotteryWebApp=/Users/Charlie/SD/Tools/apache-tomcat-8.0.45/wtpwebapps/LotteryWebApp

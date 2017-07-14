@@ -1,0 +1,44 @@
+package web;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import data.Product;
+import data.ProductDao;
+import data.ProductDaoMemoryImpl;
+
+public class CartServlet extends HttpServlet {
+	ProductDao dao;
+	List<Product> cart = new ArrayList<>();
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String prodIDString = req.getParameter("productId");
+		int prodID = Integer.parseInt(prodIDString);
+		Product prod = dao.getProductById(prodID);
+		String outputText = "You chose product " + prod;
+		if (prod != null) {
+			cart.add(prod);
+		}
+		
+		PrintWriter pw = resp.getWriter();
+		pw.println("<html>");
+		pw.println("<head><title>Shopping Cart</title></head>");
+		pw.println("  <body>" + outputText + "</body>");
+		pw.println("</html>");
+		pw.close();
+	}
+	@Override
+	public void init() {
+		dao = new ProductDaoMemoryImpl();
+	}
+	
+
+}

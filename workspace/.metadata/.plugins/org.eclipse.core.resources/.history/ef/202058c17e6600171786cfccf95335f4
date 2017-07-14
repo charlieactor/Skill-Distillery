@@ -1,0 +1,14 @@
+package com.skilldistillery.data;
+
+public class President {
+	private int presidentNumber;
+	private String firstName;
+	private String MiddleName;
+	private String LastName;
+	private int termBegin;
+	private int termEnd;
+	private String party;
+	private String interestingFact;
+
+	
+}

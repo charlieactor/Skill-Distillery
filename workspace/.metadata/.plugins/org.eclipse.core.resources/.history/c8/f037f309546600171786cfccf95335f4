@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Shopping Cart</title>
+</head>
+<body>
+ <form action="addItem.do" method="POST">
+  <select name="productId">
+
+  </select>
+  <input type="submit" value="add Item to cart">
+ </form>
+ 
+ You chose product ${product.name}
+ <hr>
+ Your Cart: <br>
+ <ul>
+  <c:forEach var="item" items="${cart}">
+   <li>${item.name} (${item.price})</li>
+   
+   
+  </c:forEach>
+ </ul>
+ 
+ StringBuilder outputText = new StringBuilder("You chose product " + prod);
+		outputText.append("<hr>Your cart:<br><ul>");
+		for (Product product : cart) {
+			outputText.append("<li>" + product.getName() + " (" + product.getPrice() + ") </li>");
+		}
+		outputText.append(" </ul>");
+</body>
+</html>

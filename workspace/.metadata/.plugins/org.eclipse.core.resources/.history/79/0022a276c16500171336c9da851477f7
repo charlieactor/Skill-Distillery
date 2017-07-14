@@ -1,0 +1,23 @@
+package com.skilldistillery.web;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class LotteryBallDaoImpl implements LotteryBallDao {
+
+	@Override
+	public List<Ball> makeBalls(int numBalls, int maxNum) {
+		List<Integer> balls = new ArrayList<>();
+		for (int i = 0; i < numBalls; i++) {
+			int rand = (int)(1+Math.random()*maxNum);
+			if (balls.contains(rand)) {
+				i -= 1;
+				continue;
+			}
+			else {
+			balls.add(rand);
+			}
+		}
+		return balls;
+	}
+}

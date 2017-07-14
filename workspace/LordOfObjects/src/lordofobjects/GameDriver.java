@@ -20,12 +20,12 @@ public class GameDriver {
 		System.out.println();
 		System.out.println(
 				"You awaken in a dank, dark, dungeon, wearing nothing but an immaculate sombrero. The putrid scent "
-						+ "of rotten flesh fills your nostrils. You're very hungry and haven't"
-						+ " eaten in days, so part of you finds this tantalizing. But mostly disgusted. "
+						+ "of rotten flesh fills your nostrils.\nYou're very hungry and haven't"
+						+ " eaten in days, so part of you finds this tantalizing. But mostly disgusted.\n"
 						+ "Yes, yes. Definitely disgusted. Anyway...");
 		System.out.println();
 		System.out.println("OH SHIT a hideous manbeast is running at you singing your least "
-				+ "favorite song. You hate that song so damn much, it's time to kill this son of a bitch.");
+				+ "favorite song. \nYou hate that song so damn much, it's time to kill this son of a bitch.");
 		System.out.println();
 		System.out.println("YOU MUST DO BATTLE WITH YOUR BARE HANDS!!!!!!");
 		System.out.println();

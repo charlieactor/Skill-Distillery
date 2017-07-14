@@ -1,0 +1,43 @@
+package com.sd.web;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.sd.data.Jet;
+import com.sd.data.JetsDao;
+import com.sd.data.StaticJetsDao;
+
+@SuppressWarnings("serial")
+public class JetsServlet extends HttpServlet {
+	private JetsDao jetsDao;
+
+	public JetsServlet() {
+		jetsDao = new StaticJetsDao();
+	}
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String idString = req.getParameter("id");
+		
+		if (idString.equals(null)) {
+			req.setAttribute("jets", jetsDao.getJets());
+		}
+		
+//		req.setAttribute("id", id);		
+//		req.getRequestDispatcher("/results.jsp").forward(req, resp);
+		
+		
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO - code
+	}
+
+}

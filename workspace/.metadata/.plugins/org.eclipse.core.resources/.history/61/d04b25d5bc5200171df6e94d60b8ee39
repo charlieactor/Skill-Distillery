@@ -1,7 +1,0 @@
-package bingo;
-
-public abstract class PingPongBall {
-	PingPongBall() {
-		
-	}
-}

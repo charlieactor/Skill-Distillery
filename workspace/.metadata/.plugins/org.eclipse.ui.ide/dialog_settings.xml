@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="354" key="DIALOG_HEIGHT"/>
+		<item value="398" key="DIALOG_X_ORIGIN"/>
+		<item value="142" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
 			<item value=""/>
+			<item value="/Users/Charlie/SD/SD-Files/Exercises/JetsServlet"/>
+			<item value="/Users/Charlie/Desktop/PresidentsProject"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/Charlie/SD/Java/SDSpringMVC.zip"/>
+			<item value=""/>
+			<item value="/Users/Charlie/SD/Java/SDJweb.zip"/>
 			<item value="/Users/Charlie/SD/Java/java1.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item value="false" key="FilterByLocation"/>
 		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/StocksWithJSP/pom.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/ShoppingCart/WebContent/WEB-INF/web.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
 		<item value="false" key="ShowDerived"/>
 		<section name="DialogBoundsSettings">
@@ -24,5 +41,12 @@
 			<item value="340" key="DIALOG_X_ORIGIN"/>
 			<item value="22" key="DIALOG_Y_ORIGIN"/>
 		</section>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="529" key="DIALOG_HEIGHT"/>
+		<item value="377" key="DIALOG_X_ORIGIN"/>
+		<item value="22" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

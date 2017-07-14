@@ -1,9 +1,0 @@
-package labs;
-
-public class Truck extends Automobile{
-	private int bedSize;
-	
-	Truck(int price, int wheels, String make, String model, int year, int bedSize) {
-		
-	}
-}

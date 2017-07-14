@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shopping Cart</title>
+</head>
+<body>
+ <form action="">
+  <select>
+   <option value="1">Apple</option>
+   <option value="2">Orange</option>
+   <option value="3">Pomegranate</option>
+   <option value="4">Giraffe</option>
+   <option value="5">Frog</option>
+   <option value="6">Bird</option>
+   <option value="7">Maserati</option>
+   <option value="8">Fuji Apple</option>
+  </select>
+  <input type="submit" value="add Item to cart">
+ </form>
+
+
+</body>
+</html>

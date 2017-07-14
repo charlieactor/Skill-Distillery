@@ -9,7 +9,7 @@ public class ThreadApp5 {
     ex.execute(new PrintNumbers6( 1, 2 ));
     ex.execute(new PrintNumbers6( 2, 2 ));
     ex.shutdown();
-    //ex.shutdownNow();
+//    ex.shutdownNow();
   }
 }
 

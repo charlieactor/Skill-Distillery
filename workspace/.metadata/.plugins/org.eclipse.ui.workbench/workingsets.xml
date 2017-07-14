@@ -28,30 +28,94 @@
 <item elementID="=Java2-Chapter12" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497289962058_5" label="Projects" name="Projects">
-<item elementID="=CC" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Tic Tac Toe" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=MakeChange" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Jets" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=DeclarationOfIndependence" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=BlackJackProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=TwitterLab" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Roman Numerals" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Pig Latin" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=NBA Draft and Lottery" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CC" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=MakeChange" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ThreadedCaesarCypher" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=DeclarationOfIndependence" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Bingo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=History" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PresidentsProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=MyFirstProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Presidents" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Pig Latin" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Battleship" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=LordOfObjects" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=NBA Draft and Lottery" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=Bingo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=BlackJackProject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=History" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497290089708_7" label="Quizzes" name="Quizzes">
 <item elementID="=ZOO" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1498159752845_7" label="OCPPrep" name="OCPPrep">
+<item elementID="=TestPrep" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698086130_9" label="JavaWeb" name="JavaWeb">
+<item elementID="=LotteryWebApp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CalculatorWebApp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ShoppingCart" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=StocksWithSessions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=HelloWorld" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Stocks" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=StocksWithJSP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499899776727_10" label="Exercises" name="Exercises">
+<item elementID="=JetsServlet" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499958344057_12" label="SpringWeb" name="SpringWeb">
+<item elementID="=SpringLotto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SpringLottoWeb" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LottoSessions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Validation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SpringMVCLab" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SpringMVCLotto" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=States" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=USStates" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=SpringLottoDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=USStates2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1496419237602_0" label="Window Working Set" name="Aggregate for window 1496419237602"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1497289624450_3" label="Multiple Working Sets" name="Aggregate:Java1:Java2:">
 <workingSet IMemento.internal.id="Java1"/>
 <workingSet IMemento.internal.id="Java2"/>
 </workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698004792_8" label="Multiple Working Sets" name="Aggregate:Java1:Java2:OCPPrep:Projects:Quizzes:">
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499698091558_10" label="Multiple Working Sets" name="Aggregate:Java1:Java2:JavaWeb:OCPPrep:Projects:Quizzes:">
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="JavaWeb"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1499899795808_11" label="Multiple Working Sets" name="Aggregate:Exercises:Java1:Java2:JavaWeb:OCPPrep:Projects:Quizzes:">
+<workingSet IMemento.internal.id="Exercises"/>
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="JavaWeb"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1500047485507_16" label="Multiple Working Sets" name="Aggregate:Exercises:Java1:Java2:JavaWeb:OCPPrep:Projects:Quizzes:SpringWeb:">
+<workingSet IMemento.internal.id="Exercises"/>
+<workingSet IMemento.internal.id="Java1"/>
+<workingSet IMemento.internal.id="Java2"/>
+<workingSet IMemento.internal.id="JavaWeb"/>
+<workingSet IMemento.internal.id="OCPPrep"/>
+<workingSet IMemento.internal.id="Projects"/>
+<workingSet IMemento.internal.id="Quizzes"/>
+<workingSet IMemento.internal.id="SpringWeb"/>
+</workingSet>
+<mruList name="SpringWeb"/>
 <mruList name="Java1"/>
 </workingSetManager>

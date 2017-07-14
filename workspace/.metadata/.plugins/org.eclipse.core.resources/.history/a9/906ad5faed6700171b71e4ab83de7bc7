@@ -1,0 +1,5 @@
+package com.skilldistillery.springmvclab.web;
+
+public class SpringMVCLabController {
+
+}

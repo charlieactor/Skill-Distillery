@@ -1,0 +1,23 @@
+package data;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class ProductDaoMemoryImpl implements ProductDao {
+	
+	Map<Integer, Product> inventory = new HashMap<>();
+
+	@Override
+	public Product getProductById(int id) {
+		return inventory.get(id);
+	}
+
+	@Override
+	public List<Product> getAllProducts() {
+		return (List<Product>)inventory.values();
+	}
+	
+	
+
+}

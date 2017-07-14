@@ -1,6 +1,0 @@
-package jets;
-
-public class Pilot {
-	String name;
-	int yearsExperience;
-}

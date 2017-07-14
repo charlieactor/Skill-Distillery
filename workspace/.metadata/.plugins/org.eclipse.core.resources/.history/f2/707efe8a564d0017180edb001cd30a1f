@@ -1,7 +1,0 @@
-package examples;
-
-public class BadAgeException extends Exception {
-	BadAgeException() {
-	System.err.println("Ya fucked up");
-	}
-}

@@ -1,7 +1,0 @@
-package jets;
-
-public class Jet {
-	String model;
-	int range, speed, pri
-
-}

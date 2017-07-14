@@ -1,0 +1,5 @@
+package com.skilldistillery.web;
+
+public interface MathDao {
+
+}

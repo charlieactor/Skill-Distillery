@@ -1,0 +1,29 @@
+package com.skilldistillery.data;
+
+public class President {
+	private int presidentNumber;
+	private String firstName;
+	private String MiddleName;
+	private String LastName;
+	private int termBegin;
+	private int termEnd;
+	private String party;
+	private String interestingFact;
+	
+	
+	
+	public President(int presidentNumber, String firstName, String middleName, String lastName, int termBegin,
+			int termEnd, String party, String interestingFact) {
+		super();
+		this.presidentNumber = presidentNumber;
+		this.firstName = firstName;
+		MiddleName = middleName;
+		LastName = lastName;
+		this.termBegin = termBegin;
+		this.termEnd = termEnd;
+		this.party = party;
+		this.interestingFact = interestingFact;
+	}
+
+	
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Form</title>
+</head>
+<body>
+	<form action="SayHello" method="GET">
+		<input type="text" name="nm" /> 
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

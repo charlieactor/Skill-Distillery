@@ -1,0 +1,13 @@
+package com.skilldistillery.web;
+
+import java.util.List;
+
+public class LotteryBallDaoImpl implements LotteryBallDao {
+
+	@Override
+	public List<Integer> makeBalls(int numBalls, int maxNum) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.skilldistillery.web;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CalculatorServlet extends HttpServlet {
+	MathDao dao;
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		int num1 = Integer.parseInt(req.getParameter("firstNum"));
+		int num2 = Integer.parseInt(req.getParameter("secondNum"));
+		String math = req.getParameter("math");
+		
+		dao = new MathDaoImpl();
+		
+		int result = dao.doMath(num1, num2, math);
+		
+		req.setAttribute("calculation", result);
+		
+//			req.setAttribute("balls", balls);
+//			req.getRequestDispatcher("/results.jsp").forward(req, resp);
+//		}
+//		else {
+//			req.getRequestDispatcher("/error.jsp").forward(req, resp);
+//		}
+	}
+
+}

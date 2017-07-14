@@ -1,5 +1,0 @@
-package labs;
-
-public class ShowHits {
-	BufferedReader bufIn = new BufferedReader(new FileReader("access_log"));
-}

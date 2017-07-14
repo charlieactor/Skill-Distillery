@@ -1,0 +1,9 @@
+1, "Apple", 1.09
+2, "Orange", 2.99
+3, "Pomegranate", 3.09
+4, "Giraffe", 1209.23
+5, "Frog", 15.09
+6, "Bird", 31.09
+7, "Maserati", 11111.09
+8, "Fuji Apple", 1.99
+9, "Banana", 0.99

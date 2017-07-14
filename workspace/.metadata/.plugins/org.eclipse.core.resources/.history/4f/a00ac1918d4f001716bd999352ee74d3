@@ -1,5 +1,0 @@
-package com.skilldistillery.calc;
-
-public class CannotDoThatException extends RuntimeException {
-
-}

@@ -1,0 +1,6 @@
+package com.skilldistillery.web;
+
+public class Ball {
+	private int num;
+
+}

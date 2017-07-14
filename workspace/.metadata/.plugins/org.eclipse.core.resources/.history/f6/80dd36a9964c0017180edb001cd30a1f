@@ -1,5 +1,0 @@
-package lordofobjects;
-
-public class Female extends MainCharacter {
-	int agility;
-}

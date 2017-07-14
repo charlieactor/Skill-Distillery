@@ -1,8 +1,0 @@
-package bingo;
-
-public class Card {
-	String[][] card = new String[5][5];
-	
-	
-
-}

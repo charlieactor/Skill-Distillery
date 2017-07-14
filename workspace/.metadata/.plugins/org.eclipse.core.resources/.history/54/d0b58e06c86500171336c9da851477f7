@@ -1,0 +1,11 @@
+package com.skilldistillery.web;
+
+public class MathDaoImpl implements MathDao {
+
+	@Override
+	public int doMath(int num1, int num2, String math) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

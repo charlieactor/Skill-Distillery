@@ -1,0 +1,20 @@
+INDEX VERSION 1.3+/Users/Charlie/SD/Java/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3500734700.index
+3195347591.index
+590693843.index
+1626031975.index
+4276643714.index
+2338549238.index
+2267639758.index
+3496583646.index
+281667675.index
+3927879410.index
+1267237868.index
+51184650.index
+3765109019.index
+3632708970.index
+857113740.index
+3298359861.index
+1140894363.index
+346304956.index
+3414171311.index
